@@ -14,21 +14,6 @@ const envelopes = [
     title: "Entertainment",
     budget: 400,
   },
-  {
-    id: 4,
-    title: "Movies" ,
-    budget: 150,
-  },
-  {
-    id: 5,
-    title: "Streaming Services",
-    budget: 50,
-  },
-  {
-    id: 6,
-    title: "Uber" ,
-    budget: 100,
-  },
 ];
 
 module.exports = envelopes;
