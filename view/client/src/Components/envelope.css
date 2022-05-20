@@ -1,0 +1,24 @@
+.actions {
+  display:flex;
+  padding: 10px;
+  width: 100%;
+}
+
+.container {
+  display: inline-table;
+  height: 500px;
+  width: 500px;
+}
+
+.header {
+  align-self: center;
+  font-family:'Times New Roman', Times, serif;
+  border: grey solid 2px;
+  background: lightgray;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+p {
+  font-style: italic;
+}
