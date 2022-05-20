@@ -1,33 +1,203 @@
-const envelopes = [
-  {
-    id: 1,
-    title: "Rent",
-    budget: '1000',
-  },
-  {
-    id: 2,
-    title: "Groceries",
-    budget: '300',
-  },
-  {
-    id: 3,
-    title: "Entertainment",
-    budget: "400",
-  }, {
-    id: 4,
-    title: "Movies" ,
-    budget: "150",
-  },
-  {
-    id: 5,
-    title: "Streaming Services",
-    budget: "55",
-  },
-  {
-    id: 6,
-    title: "Uber" ,
-    budget: "100",
-  },
-];
+const envelopes = [{
+  "id": 1,
+  "title": "Jeep",
+  "budget": "$18051.12"
+}, {
+  "id": 2,
+  "title": "Infiniti",
+  "budget": "$12951.76"
+}, {
+  "id": 3,
+  "title": "Hyundai",
+  "budget": "$10218.32"
+}, {
+  "id": 4,
+  "title": "Dodge",
+  "budget": "$18349.28"
+}, {
+  "id": 5,
+  "title": "Nissan",
+  "budget": "$19999.25"
+}, {
+  "id": 6,
+  "title": "Eagle",
+  "budget": "$11966.48"
+}, {
+  "id": 7,
+  "title": "Ford",
+  "budget": "$10713.10"
+}, {
+  "id": 8,
+  "title": "BMW",
+  "budget": "$14752.42"
+}, {
+  "id": 9,
+  "title": "Dodge",
+  "budget": "$14975.13"
+}, {
+  "id": 10,
+  "title": "Mitsubishi",
+  "budget": "$16163.10"
+}, {
+  "id": 11,
+  "title": "Foose",
+  "budget": "$17738.83"
+}, {
+  "id": 12,
+  "title": "Chevrolet",
+  "budget": "$12080.20"
+}, {
+  "id": 13,
+  "title": "Volkswagen",
+  "budget": "$13294.04"
+}, {
+  "id": 14,
+  "title": "Chevrolet",
+  "budget": "$12525.19"
+}, {
+  "id": 15,
+  "title": "Toyota",
+  "budget": "$12786.31"
+}, {
+  "id": 16,
+  "title": "Mitsubishi",
+  "budget": "$10519.27"
+}, {
+  "id": 17,
+  "title": "Ford",
+  "budget": "$12664.41"
+}, {
+  "id": 18,
+  "title": "Dodge",
+  "budget": "$11946.07"
+}, {
+  "id": 19,
+  "title": "Mitsubishi",
+  "budget": "$14603.36"
+}, {
+  "id": 20,
+  "title": "Subaru",
+  "budget": "$18538.79"
+}, {
+  "id": 21,
+  "title": "Isuzu",
+  "budget": "$13873.90"
+}, {
+  "id": 22,
+  "title": "Toyota",
+  "budget": "$19542.04"
+}, {
+  "id": 23,
+  "title": "Dodge",
+  "budget": "$11605.43"
+}, {
+  "id": 24,
+  "title": "Chevrolet",
+  "budget": "$15538.63"
+}, {
+  "id": 25,
+  "title": "Suzuki",
+  "budget": "$13950.74"
+}, {
+  "id": 26,
+  "title": "Ford",
+  "budget": "$13082.83"
+}, {
+  "id": 27,
+  "title": "Rolls-Royce",
+  "budget": "$10316.67"
+}, {
+  "id": 28,
+  "title": "GMC",
+  "budget": "$11206.86"
+}, {
+  "id": 29,
+  "title": "Ford",
+  "budget": "$19340.57"
+}, {
+  "id": 30,
+  "title": "Honda",
+  "budget": "$12660.23"
+}, {
+  "id": 31,
+  "title": "Lexus",
+  "budget": "$14810.39"
+}, {
+  "id": 32,
+  "title": "Nissan",
+  "budget": "$13795.60"
+}, {
+  "id": 33,
+  "title": "Dodge",
+  "budget": "$17077.23"
+}, {
+  "id": 34,
+  "title": "Volvo",
+  "budget": "$15339.98"
+}, {
+  "id": 35,
+  "title": "Audi",
+  "budget": "$10371.03"
+}, {
+  "id": 36,
+  "title": "Mercedes-Benz",
+  "budget": "$12503.98"
+}, {
+  "id": 37,
+  "title": "Lincoln",
+  "budget": "$10352.97"
+}, {
+  "id": 38,
+  "title": "Ford",
+  "budget": "$17581.70"
+}, {
+  "id": 39,
+  "title": "Audi",
+  "budget": "$18914.43"
+}, {
+  "id": 40,
+  "title": "Volvo",
+  "budget": "$11721.65"
+}, {
+  "id": 41,
+  "title": "Mazda",
+  "budget": "$19788.51"
+}, {
+  "id": 42,
+  "title": "Peugeot",
+  "budget": "$14247.24"
+}, {
+  "id": 43,
+  "title": "Chevrolet",
+  "budget": "$19489.62"
+}, {
+  "id": 44,
+  "title": "Chevrolet",
+  "budget": "$12580.01"
+}, {
+  "id": 45,
+  "title": "Honda",
+  "budget": "$13785.84"
+}, {
+  "id": 46,
+  "title": "Mazda",
+  "budget": "$15820.30"
+}, {
+  "id": 47,
+  "title": "Toyota",
+  "budget": "$18103.09"
+}, {
+  "id": 48,
+  "title": "GMC",
+  "budget": "$13922.54"
+}, {
+  "id": 49,
+  "title": "Mercedes-Benz",
+  "budget": "$16514.20"
+}, {
+  "id": 50,
+  "title": "Buick",
+  "budget": "$11947.70"
+}]
 
 module.exports = envelopes;

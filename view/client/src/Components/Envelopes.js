@@ -66,8 +66,8 @@ function Envelopes() {
         <BasicModal />
         
 
-        <Button className="refresh" color="secondary" > Refresh Table
-             <RefreshIcon title="Refresh" onClick={refresh} />
+        <Button className="refresh" color="secondary"onClick={refresh} > Refresh Table
+             <RefreshIcon title="Refresh" />
         </Button>
     
      </div>
